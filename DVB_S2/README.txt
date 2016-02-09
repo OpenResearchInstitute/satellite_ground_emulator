@@ -1,4 +1,8 @@
-# from /opt/local/share/gnuradio/examples/dtv
+# this file from /opt/local/share/gnuradio/examples/dtv
+#
+# You will need to get the Test Transport stream yourself
+# as it it too large to fit in the repository. See further down
+# in this file for instructions.
 #
 # Copyright 2014 Ron Economos
 #
