@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.10'?>
+<?grc format='1' created='3.7.8'?>
 <flow_graph>
   <timestamp>Thu Jan 16 23:00:58 2014</timestamp>
   <block>
@@ -41,10 +41,6 @@
       <value>qt_gui</value>
     </param>
     <param>
-      <key>hier_block_src_path</key>
-      <value>.:</value>
-    </param>
-    <param>
       <key>id</key>
       <value>dvbt_tx_demo</value>
     </param>
@@ -53,16 +49,8 @@
       <value>0</value>
     </param>
     <param>
-      <key>qt_qss_theme</key>
-      <value></value>
-    </param>
-    <param>
       <key>realtime_scheduling</key>
       <value></value>
-    </param>
-    <param>
-      <key>run_command</key>
-      <value>{python} -u {filename}</value>
     </param>
     <param>
       <key>run_options</key>
@@ -128,7 +116,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/Volumes/work/run/shm/adv16apsk910.ts</value>
+      <value>/Users/kb5mu/Desktop/adv16apsk910.ts</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -859,11 +847,11 @@
     </param>
     <param>
       <key>freq0</key>
-      <value>441000000</value>
+      <value>1269000000</value>
     </param>
     <param>
       <key>if_gain0</key>
-      <value>20</value>
+      <value>30</value>
     </param>
     <param>
       <key>gain0</key>
@@ -2213,7 +2201,7 @@
     </param>
     <param>
       <key>fc</key>
-      <value>441000000</value>
+      <value>1269000000</value>
     </param>
     <param>
       <key>comment</key>
@@ -2472,20 +2460,12 @@
       <value>firdes.WIN_BLACKMAN_hARRIS</value>
     </param>
     <param>
-      <key>label</key>
-      <value>Relative Gain</value>
-    </param>
-    <param>
       <key>ymax</key>
       <value>10</value>
     </param>
     <param>
       <key>ymin</key>
       <value>-140</value>
-    </param>
-    <param>
-      <key>units</key>
-      <value>dB</value>
     </param>
   </block>
   <block>
@@ -2500,7 +2480,7 @@
     </param>
     <param>
       <key>fc</key>
-      <value>441000000</value>
+      <value>1269000000</value>
     </param>
     <param>
       <key>comment</key>
@@ -3394,6 +3374,10 @@
       <value>fc32</value>
     </param>
     <param>
+      <key>len_tag_name</key>
+      <value></value>
+    </param>
+    <param>
       <key>clock_source0</key>
       <value></value>
     </param>
@@ -3502,10 +3486,6 @@
       <value>samp_rate</value>
     </param>
     <param>
-      <key>hide_cmd_port</key>
-      <value>False</value>
-    </param>
-    <param>
       <key>stream_args</key>
       <value></value>
     </param>
@@ -3515,10 +3495,6 @@
     </param>
     <param>
       <key>sync</key>
-      <value></value>
-    </param>
-    <param>
-      <key>len_tag_name</key>
       <value></value>
     </param>
     <param>
