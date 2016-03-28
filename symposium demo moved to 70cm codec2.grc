@@ -598,6 +598,33 @@
     </param>
     <param>
       <key>_coordinate</key>
+      <value>(472, 143)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>swaths_per_superframe</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>2</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
       <value>(400, 75)</value>
     </param>
     <param>
@@ -611,6 +638,33 @@
     <param>
       <key>value</key>
       <value>75e-6</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(360, 144)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>vocoder_rate</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>3200.0</value>
     </param>
   </block>
   <block>
@@ -5692,11 +5746,11 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>bpsk_rate</value>
+      <value>(((((payload_size + guard_size)*num_channels*swaths_per_superframe)/2)+preamble_size) / ((payload_size/vocoder_rate)*swaths_per_superframe)) * 2</value>
     </param>
     <param>
       <key>sym_rate</key>
-      <value>bpsk_rate/2</value>
+      <value>((((payload_size + guard_size)*num_channels*swaths_per_superframe)/2)+preamble_size) / ((payload_size/vocoder_rate)*swaths_per_superframe)</value>
     </param>
   </block>
   <block>
