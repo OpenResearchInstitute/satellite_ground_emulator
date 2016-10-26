@@ -1,3 +1,5 @@
 # satellite_ground_emulator
 
-Demonstrated at AMSAT Symposium 2015. 
+Some of these flowgraphs were demonstrated at AMSAT Symposium 2015. 
+
+Other recent flowgraphs are for uplink simulations and modeling for P4B and CQC.
