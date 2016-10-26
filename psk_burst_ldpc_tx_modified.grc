@@ -238,7 +238,7 @@
     </param>
     <param>
       <key>msg</key>
-      <value>pmt.intern("TEST")</value>
+      <value>pmt.intern("NOTaDRILL")</value>
     </param>
     <param>
       <key>minoutbuf</key>
