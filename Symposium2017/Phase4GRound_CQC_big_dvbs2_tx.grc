@@ -105,7 +105,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1280e6</value>
+      <value>1280005000</value>
     </param>
   </block>
   <block>
@@ -132,7 +132,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>0.32</value>
+      <value>0.2</value>
     </param>
   </block>
   <block>
@@ -224,7 +224,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>50</value>
+      <value>80</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -421,11 +421,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(200, 24)</value>
+      <value>(184, 24)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -492,7 +492,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(776, 508)</value>
+      <value>(1120, 364)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -509,61 +509,6 @@
     <param>
       <key>unbuffered</key>
       <value>False</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_file_source</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>file</key>
-      <value>/run/shm/adv16apsk910.ts</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(176, 76)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_file_source_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>byte</value>
-    </param>
-    <param>
-      <key>repeat</key>
-      <value>True</value>
     </param>
     <param>
       <key>vlen</key>
@@ -626,7 +571,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(408, 24)</value>
+      <value>(352, 24)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -709,7 +654,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(624, 28)</value>
+      <value>(536, 28)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -780,7 +725,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(848, 28)</value>
+      <value>(720, 28)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -855,7 +800,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1064, 24)</value>
+      <value>(904, 24)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -918,7 +863,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(184, 172)</value>
+      <value>(1088, 28)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -981,7 +926,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(448, 168)</value>
+      <value>(176, 168)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1040,7 +985,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(184, 320)</value>
+      <value>(368, 160)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1091,7 +1036,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(464, 332)</value>
+      <value>(584, 492)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2046,7 +1991,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1040, 228)</value>
+      <value>(1072, 212)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2169,7 +2114,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(776, 292)</value>
+      <value>(800, 252)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2433,7 +2378,354 @@
     </param>
     <param>
       <key>name</key>
+      <value>After FFT Filter</value>
+    </param>
+    <param>
+      <key>nconnections</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>size</key>
+      <value>1024</value>
+    </param>
+    <param>
+      <key>tr_chan</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>tr_level</key>
+      <value>0.0</value>
+    </param>
+    <param>
+      <key>tr_mode</key>
+      <value>qtgui.TRIG_MODE_FREE</value>
+    </param>
+    <param>
+      <key>tr_slope</key>
+      <value>qtgui.TRIG_SLOPE_POS</value>
+    </param>
+    <param>
+      <key>tr_tag</key>
       <value>""</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>update_time</key>
+      <value>0.10</value>
+    </param>
+    <param>
+      <key>xmax</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>xmin</key>
+      <value>-2</value>
+    </param>
+    <param>
+      <key>ymax</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>ymin</key>
+      <value>-2</value>
+    </param>
+  </block>
+  <block>
+    <key>qtgui_const_sink_x</key>
+    <param>
+      <key>autoscale</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>axislabels</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(800, 172)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>qtgui_const_sink_x_0_0</value>
+    </param>
+    <param>
+      <key>legend</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>alpha1</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color1</key>
+      <value>"blue"</value>
+    </param>
+    <param>
+      <key>label1</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker1</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style1</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width1</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha10</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color10</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label10</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker10</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style10</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width10</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha2</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color2</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label2</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker2</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style2</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width2</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha3</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color3</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label3</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker3</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style3</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width3</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha4</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color4</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label4</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker4</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style4</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width4</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha5</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color5</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label5</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker5</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style5</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width5</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha6</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color6</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label6</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker6</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style6</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width6</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha7</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color7</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label7</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker7</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style7</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width7</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha8</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color8</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label8</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker8</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style8</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width8</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>alpha9</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>color9</key>
+      <value>"red"</value>
+    </param>
+    <param>
+      <key>label9</key>
+      <value></value>
+    </param>
+    <param>
+      <key>marker9</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style9</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width9</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>name</key>
+      <value>Before FFT Filter</value>
     </param>
     <param>
       <key>nconnections</key>
@@ -2536,7 +2828,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(776, 204)</value>
+      <value>(800, 332)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -3459,7 +3751,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1048, 408)</value>
+      <value>(1088, 456)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3483,7 +3775,7 @@
     </param>
     <param>
       <key>time_source0</key>
-      <value></value>
+      <value>gpsdo</value>
     </param>
     <param>
       <key>clock_source1</key>
@@ -3617,12 +3909,6 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_file_source_0</source_block_id>
-    <sink_block_id>dtv_dvb_bbheader_bb_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>dtv_dvb_bbheader_bb_0</source_block_id>
     <sink_block_id>dtv_dvb_bbscrambler_bb_0</sink_block_id>
     <source_key>0</source_key>
@@ -3665,8 +3951,8 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>fft_filter_xxx_0</source_block_id>
-    <sink_block_id>blocks_file_sink_0</sink_block_id>
+    <source_block_id>dtv_dvbs2_physical_cc_0</source_block_id>
+    <sink_block_id>qtgui_const_sink_x_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
