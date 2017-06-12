@@ -1,1 +1,5 @@
 Demonstration files and documentation for AMSAT Symposium 2017
+
+This is a 100kHz 80kilobaud  DVB-S2 signal experiment intended to demonstrate Cube Quest Challenge downlink. The signal is at 1.28GHz for bench testing. This is the initial draft and will undergo significant changes and development between now and October. Please contribute and document progress. 
+
+Two modulation and codings are used in two stand-alone flowgraphs. "Small" station flowgraph is QPSK 1/4. "Big" station flowgraph is 8PSK 8/9. These are modified from standard GNU Radio example files and were transmitted with a USRP. They were received on a HackRF and a BladeRF with the receive flowgraph. 
